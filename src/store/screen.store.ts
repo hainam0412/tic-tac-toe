@@ -15,7 +15,4 @@ export const ScreenStore = defineStore('screen', {
             this.screen = screen;
         },
     },
-    persist: {
-        storage: window.sessionStorage,
-    },
 });
