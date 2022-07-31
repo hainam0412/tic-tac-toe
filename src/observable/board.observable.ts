@@ -5,8 +5,8 @@ import { BoardPosition } from '@/type/board.type';
 const WIN = 4;
 
 const checkMove = (positions: BoardPosition[], player: Player) => {
-    // const length = positions.length;
-    // if (length <= WIN) return;
+    const length = positions.length;
+    if (length <= WIN) return;
 
     let count = 0;
     console.log(player, positions);
